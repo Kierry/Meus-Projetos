@@ -6,6 +6,7 @@ body{
 }
 #conteudo{
     background-color:rgba(245, 245, 245, 0.755);
+    border-radius: 15px;
 
 }
 h1{
