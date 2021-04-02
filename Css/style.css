@@ -4,13 +4,17 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 
 }
+main{
+    margin: auto;
+    padding: 80px;
+}
 #conteudo{
     background-color:rgba(245, 245, 245, 0.755);
     border-radius: 15px;
 
 }
 h1{
-    background-color: rgba(245, 245, 245, 0.316);
+    background-color: rgba(242, 242, 242, 0.756);
     color: rgb(0, 0, 0);
     font-size: 3em;
     text-align: left;
@@ -29,6 +33,7 @@ h2{
     border-radius: 20px;    
 }
 ul#bick{
+    border-radius: 30px;
     background-color: rgb(240, 240, 240);
     font-size: 2em;
     text-align: right;
