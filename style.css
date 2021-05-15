@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 body{
+    font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(0, 0, 255, 0.844);
 }
 aside{
@@ -23,19 +24,37 @@ ul#menu>li{
     color: rgb(13, 0, 255);
     padding: 15px;
 }
+a{
+    text-decoration: none;
+    color: rgb(7, 5, 135);
+    font-weight:bolder;
+}
 div{
     background-color: white;
     margin-left: 10%;
     margin-right: 10%;
-    padding-bottom: 30%;
+    padding-top: 3px;
+    padding-bottom: 2px;
     box-shadow: 5px 2px 5px black;
 }
-main{
-    background-color: blue;
-    display: inline-flex;
-    padding: 150px;
-    margin: 0px;
-    border-color: 10px solid black;
+main>h1{
+    margin-bottom: 0px;
+    background-color: rgba(255, 255, 255, 0.844);
+    border: 9px solid rgb(0,0, 255, 0.844);
+    box-shadow: 5px 5px 5px 10px rgba(0, 0, 0, 0.164);
+}
+main>p{
+    display: inline-block;
+    margin: 10px;
+}
+main>img{
+    display: inline-block;
+    padding: 3px;
+    margin-top: 17px;
+    margin-left: 3%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.433);
+    border: 3px solid rgba(255, 255, 255, 0.323);
+    border-radius: 30px;
 }
 footer{
     background-color: white;
