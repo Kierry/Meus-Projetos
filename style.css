@@ -41,10 +41,9 @@ h1{
     padding-left: 10px;
 }
 main>h1{
-    background-color: rgba(255, 254, 254, 0.844);
     border: 3px solid rgb(211, 177, 91);
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.164);
-    border-radius: 40px 0px ;
+    border-radius: 40px 0px;
 }
 main>p{
     display: block;
