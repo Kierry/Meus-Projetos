@@ -17,7 +17,7 @@ ul#menu{
     background-color: white;
     display: block;
     text-align: center;
-    box-shadow: 5px 5px 11px rgb(0, 0, 0);
+    box-shadow: 5px 5px 11px rgba(0, 0, 0, 0.337);
 }
 ul#menu>li{
     display: inline-block;
@@ -33,7 +33,7 @@ div{
     background-color: white;
     margin: auto 10% auto 10%;
     padding: 3px; 
-    box-shadow: 5px 2px 5px black;
+    box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.282);
 }
 h1{
     font-family: Cinzel, Arial, Helvetica, sans-serif;
@@ -69,7 +69,7 @@ footer{
     display: block;
     margin: 2px 5px 2px 5px;
     border-radius: 1px 1px 50px 50px;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.446);
 }
 footer>ul li{
     display: inline-block;
