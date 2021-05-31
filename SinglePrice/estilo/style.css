@@ -1,0 +1,43 @@
+*
+body{
+    background-color:rgb(230, 239, 246);
+}
+div.main{
+    padding: 40px;
+}
+nav{
+    margin: 10%;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    background-color: rgb(253, 253, 253);
+}
+div.direita{
+    display: block;
+    background-color: #49BEBF;
+    border: 1px solid black;
+    margin: 0px auto 0px 45%;
+    float: right;
+    position: relative;
+    width: 5%;
+    margin: 0;
+    padding: 0;
+}
+div.esquerda{
+    display: block;
+    background-color: #2BB3B1;
+    border: 1px solid black;
+    margin: 0px auto 0px ;
+    float: right;
+    position: relative;
+    padding: 50px;
+}
+footer{
+    display: block;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+footer>p a{
+    text-decoration: none;
+    color: black;
+}
