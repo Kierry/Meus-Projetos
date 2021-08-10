@@ -1,0 +1,83 @@
+@charset "UTF8";
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+@font-face {
+    font-family: 'WRESTLEMANIA';
+    src: url(../fonts/WRESTLEMANIA.ttf);
+}
+:root{    
+    --cor1: #F5E1DA;
+    --cor2: #FADCE4;
+    --cor3: #d30404;
+    --cor4: #EB1601;
+    --cor5: #D63211;
+
+    --fontedestaque: 'WRESTLEMANIA';
+    --fontepadrao:'Source Sans Pro', sans-serif;
+}
+body{
+    background-color: var(--cor3);
+    font-family: var(--fontepadrao);
+}
+header{
+    background-color: var(--cor2);
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+    /* Talvez afinar um pouco para ficar parecido com o do Projeto inicial Praticamente pronto
+    adicionar box shadown  */
+}
+header h1{
+    font-family: var(--fontedestaque);
+    font-size: 5em;
+    margin: -8px;
+    color: var(--cor3);
+    text-shadow: 1px 0px 3px black;
+    /* Praticamente pronto */
+}
+header nav{
+    max-width: 600px;
+    background-color: var(--cor1);
+    padding: 10px;
+    display: block;
+    margin: auto;
+    border-radius: -1px;
+    /*Menu de interação, Praticamente pronto */
+}
+header > hr{ 
+    max-width: 500px;
+    margin: auto;
+    height: 1px;
+    background-color: black;
+    /*LInha abaixo do titulo Principal, Achar forma melhor de fazer*/
+}
+header > nav a {
+    text-decoration: none;
+    color: black;
+    background-color: var(--cor1);
+    padding: 8px;
+    padding-left: 10px;
+    box-shadow: 1px 2px 2px black;
+    font-family: var(--fontepadrao);
+    border-radius: 10px 10px 0px 0px;
+    margin: 0px;
+    /* Praticamente pronto, Falta a lupa de pesquisa que não sei faze, pesquisar como fazer a lupa */
+}
+main{
+    max-width: 800px;
+    margin: 50px 80px 20px 80px;
+    padding: 120px;
+    background-color: var(--cor5);
+    /* Falta muito ainda, priorizar na proxima vez.
+    adicionar box shadown  */
+}
+/* O que falta
+    Falta o main e o footer
+    talvez trocar as cores 
+    fazer o espaço LOGIN e REGISTRAR-SE
+    fazer as divis com os banners do main
+    deixar o footer no final da pag
+    deixar o footer branco e alinhado
+    colocar links no footer 
+*/
