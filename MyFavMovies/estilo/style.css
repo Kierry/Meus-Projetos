@@ -21,11 +21,13 @@ body{
     font-family: var(--fontepadrao);
 }
 header{
-    background-color: var(--cor2);
+    background-color: var(--cor1);
     text-align: center;
+    max-height: 90px;
     max-width: 700px;
     margin: auto;
-    /* Talvez afinar um pouco para ficar parecido com o do Projeto inicial Praticamente pronto
+    box-shadow: 2px 3px 10px black;
+    /* Praticamente pronto
     adicionar box shadown  */
 }
 header h1{
@@ -66,11 +68,36 @@ header > nav a {
 }
 main{
     max-width: 800px;
-    margin: 50px 80px 20px 80px;
-    padding: 120px;
-    background-color: var(--cor5);
+    margin: auto;
+    margin-top: 50px;
+    padding: 80px;
+    background-color: var(--cor1);
     /* Falta muito ainda, priorizar na proxima vez.
     adicionar box shadown  */
+}
+main ul{
+    padding: 0px;
+}
+main li{
+    background-color: black;
+    display: inline-block;
+    margin: auto;
+    padding: 250px 73px;
+    border: 1px solid #d30404;
+}
+footer{
+    background-color: var(--cor1);
+    padding: 2px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: -8px;
+    max-width: 1000px;
+}
+footer ul>li{
+    display: inline;
+    margin: auto;
+    background-color: var(--cor3);
+    
 }
 /* O que falta
     Falta o main e o footer
