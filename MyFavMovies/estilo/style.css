@@ -68,6 +68,7 @@ header > nav a {
 }
 main{
     max-width: 800px;
+    height: fit-content;
     margin: auto;
     margin-top: 50px;
     padding: 80px;
@@ -75,16 +76,21 @@ main{
     /* Falta muito ainda, priorizar na proxima vez.
     adicionar box shadown  */
 }
-main ul{
-    padding: 0px;
+main > nav{
+    background-color: black;
+}
+/* main ul{
+background-color: blue;
+padding: 1px;
+margin: auto;
 }
 main li{
     background-color: black;
     display: inline-block;
     margin: auto;
-    padding: 250px 73px;
+    padding: 250px 89.5px;
     border: 1px solid #d30404;
-}
+} */
 footer{
     background-color: var(--cor1);
     padding: 2px;
