@@ -77,7 +77,11 @@ main{
     adicionar box shadown  */
 }
 main > nav{
-    background-color: black;
+    background-color: rgb(235, 15, 15);
+}
+picture.bane {
+    max-width: 20px;
+    max-height: 20px;
 }
 /* main ul{
 background-color: blue;
